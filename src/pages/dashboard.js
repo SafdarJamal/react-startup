@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
-import DashboardSection from "./../components/DashboardSection";
-import { useAuth } from "./../util/auth.js";
-import { useRouter } from "./../util/router.js";
+import React, { useEffect } from 'react';
+import DashboardSection from '../components/DashboardSection';
+import { useAuth } from '../util/auth.js';
+import { useRouter } from '../util/router.js';
 
 function DashboardPage(props) {
   const auth = useAuth();
@@ -11,7 +11,7 @@ function DashboardPage(props) {
   // if not signed in.
   useEffect(() => {
     if (auth.user === false) {
-      router.push("/signin");
+      router.push('/signin');
     }
   }, [auth, router]);
 

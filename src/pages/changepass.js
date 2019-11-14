@@ -1,5 +1,5 @@
-import React from "react";
-import ChangePassSection from "./../components/ChangePassSection";
+import React from 'react';
+import ChangePassSection from '../components/ChangePassSection';
 
 function ChangepassPage(props) {
   return (

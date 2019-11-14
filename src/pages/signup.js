@@ -1,5 +1,5 @@
-import React from "react";
-import SignUpSection from "./../components/SignUpSection";
+import React from 'react';
+import SignUpSection from '../components/SignUpSection';
 
 function SignupPage(props) {
   return (

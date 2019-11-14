@@ -1,5 +1,5 @@
-import React from "react";
-import FaqSection from "./../components/FaqSection";
+import React from 'react';
+import FaqSection from '../components/FaqSection';
 
 function FaqPage(props) {
   return (

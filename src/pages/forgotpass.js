@@ -1,5 +1,5 @@
-import React from "react";
-import ForgotPassSection from "./../components/ForgotPassSection";
+import React from 'react';
+import ForgotPassSection from '../components/ForgotPassSection';
 
 function ForgotpassPage(props) {
   return (

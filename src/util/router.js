@@ -4,19 +4,19 @@
   Import from this file instead of react-router-dom directly.
 */
 
-import React, { useMemo, useEffect } from "react";
+import React, { useMemo, useEffect } from 'react';
 import {
   Router as RouterOriginal,
   useParams,
   useLocation,
   useHistory,
   useRouteMatch
-} from "react-router-dom";
-import queryString from "query-string";
+} from 'react-router-dom';
+import queryString from 'query-string';
 
 // Use a custom history object and pass to Router so that we
 // can utilize history.listen() where needed (such as for pageview tracking)
-import { createBrowserHistory } from "history";
+import { createBrowserHistory } from 'history';
 export const history = createBrowserHistory();
 
 // Export our <Router> component
@@ -83,4 +83,4 @@ export {
   useLocation,
   useHistory,
   useRouteMatch
-} from "react-router-dom";
+} from 'react-router-dom';

@@ -1,6 +1,6 @@
-import React from "react";
-import ContentSection from "./../components/ContentSection";
-import TeamBiosSection from "./../components/TeamBiosSection";
+import React from 'react';
+import ContentSection from '../components/ContentSection';
+import TeamBiosSection from '../components/TeamBiosSection';
 
 function AboutPage(props) {
   return (
