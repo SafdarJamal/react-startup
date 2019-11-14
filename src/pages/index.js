@@ -1,10 +1,10 @@
-import React from "react";
-import HeroSection from "./../components/HeroSection";
-import ClientsSection from "./../components/ClientsSection";
-import FeaturesSection from "./../components/FeaturesSection";
-import TestimonialsSection from "./../components/TestimonialsSection";
-import NewsletterSection from "./../components/NewsletterSection";
-import { useRouter } from "./../util/router.js";
+import React from 'react';
+import HeroSection from './../components/HeroSection';
+import ClientsSection from '../components/ClientsSection';
+import FeaturesSection from './../components/FeaturesSection';
+import TestimonialsSection from './../components/TestimonialsSection';
+import NewsletterSection from './../components/NewsletterSection';
+import { useRouter } from './../util/router.js';
 
 function IndexPage(props) {
   const router = useRouter();
@@ -22,7 +22,7 @@ function IndexPage(props) {
         image="https://uploads.divjoy.com/undraw-japan_ubgk.svg"
         buttonOnClick={() => {
           // Navigate to pricing page
-          router.push("/pricing");
+          router.push('/pricing');
         }}
       />
       <ClientsSection
