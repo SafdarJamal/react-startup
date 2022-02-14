@@ -1,6 +1,6 @@
 # React Startup
 
-React startup is a collection of react components to quickly build landing pages.
+React Startup is a collection of React components to quickly build landing pages.
 
 ## Development
 
